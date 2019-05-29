@@ -1,0 +1,8 @@
+<view class='wrap'>
+
+  <image src='../../images/1.png' class='banner'></image>
+
+  <view class='tit'  bindtap='start'>
+    开启我的音乐之旅
+  </view>
+</view>

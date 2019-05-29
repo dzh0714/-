@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/findMic/findMic",
+    "pages/MineMic/MineMic",
+    "pages/friend/friend",
+    "pages/account/account",
+    "pages/daily/daily"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E07D7D",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#E07D7D",
+    "list": [
+      {
+        "pagePath": "pages/findMic/findMic",
+        "text": "发现音乐",
+        "iconPath": "./images/apple.png",
+        "selectedIconPath": "./images/banana.png"
+      },
+      {
+        "pagePath": "pages/MineMic/MineMic",
+        "text": "我的音乐",
+        "iconPath": "./images/bread.png",
+        "selectedIconPath": "./images/cake.png"
+      },
+      {
+        "pagePath": "pages/friend/friend",
+        "text": "朋友",
+        "iconPath": "./images/pear.png",
+        "selectedIconPath": "./images/cheese.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账号",
+        "iconPath": "./images/wine.png",
+        "selectedIconPath": "./images/milk.png"
+      }
+    ]
+  }
+}

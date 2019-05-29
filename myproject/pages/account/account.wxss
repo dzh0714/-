@@ -1,0 +1,120 @@
+/* pages/account/account.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  width: 100%;
+  height: 600rpx;
+  background: rgb(249, 238, 237);
+}
+
+.bannerwrap {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 100rpx auto;
+  border-radius: 70rpx;
+  overflow: hidden;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -100rpx;
+  margin-left: -100rpx; */
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+}
+
+.signUp {
+  margin-bottom: 30rpx;
+}
+
+button {
+  width: 80%;
+  height: 70rpx;
+  background: white;
+  color: rgb(226, 92, 99);
+  border: 1rpx solid rgb(226, 92, 99);
+  border-radius: 40rpx;
+  font-size: 28rpx;
+  line-height: 70rpx;
+  letter-spacing: 5rpx;
+}
+
+.con {
+  flex: 1;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.tourist {
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.tourist text {
+  font-size: 26rpx;
+  color: rgb(139, 139, 139);
+  border-bottom: 3rpx solid rgb(143, 143, 143);
+    letter-spacing: 5rpx;
+}
+
+.extwrap{
+  width:100%;
+  margin-top: 150rpx;
+}
+.ext{
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 50rpx;
+  box-sizing: border-box;
+  justify-content: space-between
+}
+.exttext{
+  font-size: 26rpx;
+  color: rgb(107, 107, 107);
+  letter-spacing: 5rpx;
+}
+.line{
+  width: 210rpx;
+  height: 2rpx;
+  background: #ccc;
+}
+
+.bottomItem image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.bottom{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+
+.bottomItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomItem view{
+  font-size: 25rpx;
+  color: rgb(105, 105, 105);
+  margin-top: 20rpx;
+}

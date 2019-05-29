@@ -1,0 +1,80 @@
+<!--pages/findMic/findMic.wxml-->
+<view class='wrap'>
+  <view class='topwrap'>
+    <view class='top'>
+      <image class='' src='../../images/huatong.png' class='pear'></image>
+      <input placeholder='搜索歌词、音乐 、电台' class='search'></input>
+      <image class='' src='../../images/music1.png' class='bread'></image>
+    </view>
+    <view class='nav'>
+      <block wx:for="{{navList}}" wx:key="{{index}}">
+        <view class='{{actIndex===index?"navActive":null}}' bindtap='navClick' data-ind="{{index}}">{{item}}</view>
+      </block>
+    </view>
+  </view>
+  <view class='swiperWrap'>
+    <swiper indicator-dots="true" autoplay="true" interval="2500" duration="1500" indicator-color="white" indicator-active-color="rgb(224, 125, 125)">
+      <block wx:for="{{bannerList}}" wx:key="{{index}}">
+        <swiper-item>
+          <!-- <image src="{{item.pic_s192}}" class="slide-image"/> -->
+          <image src='{{item.pic_s444}}' class='swiper-item'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='classify'>
+    <view class='classifyItem'>
+      <image src='../../images/radio.png'></image>
+      <view>私人FM</view>
+    </view>
+    <view class='classifyItem' bindtap='daily'>
+      <image src='../../images/star.png'></image>
+      <view>每日推荐</view>
+    </view>
+    <view class='classifyItem'>
+      <image src='../../images/list.png'></image>
+      <view>歌单</view>
+    </view>
+    <view class='classifyItem'>
+      <image src='../../images/paihang.png'></image>
+      <view>排行榜</view>
+    </view>
+  </view>
+
+  <view class='con'>
+    <view class='con-item'>
+      <view class='con-tit'>推荐歌曲 ></view>
+      <view class='con-item-item'>
+        <block wx:for="{{classifyList}}" wx:key="{{index}}">
+          <view class='item'>
+              <image src="{{item.img}}" class='con-img'></image>
+              <view class='con-detail'>{{item.tit}}</view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class='con-item'>
+      <view class='con-tit'>独家放送 ></view>
+      <view class='con-item-item'>
+        <block wx:for="{{classifyList}}" wx:key="{{index}}">
+          <view class='item'>
+              <image src="{{item.img}}" class='con-img'></image>
+              <view class='con-detail'>{{item.tit}}</view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class='con-item'>
+      <view class='con-tit'>最新音乐 ></view>
+      <view class='con-item-item'>
+        <block wx:for="{{classifyList}}" wx:key="{{index}}">
+          <view class='item'>
+              <image src="{{item.img}}" class='con-img'></image>
+              <view class='con-detail'>{{item.tit}}</view>
+          </view>
+        </block>
+      </view>
+    </view>
+    
+  </view>
+</view>

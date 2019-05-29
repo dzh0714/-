@@ -1,0 +1,42 @@
+<!--pages/account/account.wxml-->
+<view class='wrap'>
+  <view class='top'>
+    <view class='bannerwrap'>
+      <image src='../../images/1.png' class='banner'></image>
+    </view>
+    <view class='topCon'>
+      <button class='signUp'>手機號登錄</button>
+      <button class='register'>註冊</button>
+    </view>
+  </view>
+  <view class='con'>
+    <view class='tourist'>
+      <text>遊客試用</text>
+    </view>
+    <view class='extwrap'>
+      <view class='ext'>
+        <view class='line'></view>
+        <view class='exttext'>其他登錄方式</view>
+        <view class='line'></view>
+      </view>
+      <view class='bottom'>
+        <view class='bottomItem'>
+          <image src='../../images/weixin.png'></image>
+          <view>微信</view>
+        </view>
+        <view class='bottomItem'>
+          <image src='../../images/qq.png'></image>
+          <view>QQ</view>
+        </view>
+        <view class='bottomItem'>
+          <image src='../../images/weibo.png'></image>
+          <view>新浪微博</view>
+        </view>
+        <view class='bottomItem'>
+          <image src='../../images/zhi.png'></image>
+          <view>支付寶</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

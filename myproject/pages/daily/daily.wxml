@@ -1,0 +1,27 @@
+<!--pages/daily/daily.wxml-->
+<view class='wrap'>
+  <view class='banner'>
+    <image src='../../images/testSmall1.png' class='bannerimg'></image>
+  </view>
+  <view class='con'>
+    <view class='conTop'>
+      <view class='conTop-l'>
+        <image src='../../images/NEXT.png'></image>
+        <text>播放全部(共708首)</text>
+      </view>
+      <view class='conTop-r'>
+        <image src='../../images/list2.png'></image>
+        <text>多选</text>
+      </view>
+    </view>
+    <view class='sing-wrap'>
+      <view class='singTop'>
+        <view class='singItem'>
+          <view class='singName'>歌曲名称</view>
+          <view class='singer'>歌手</view>
+        </view>
+        <image src='../../images/diandian.png' class='ext'></image>
+      </view>
+    </view>
+  </view>
+</view>
